@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page introuvable — Soft Lumen Studio</title>
+<meta name="description" content="La page demandée n'existe pas.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0b0d13">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div class="glow glow--1" aria-hidden="true"></div>
+<div class="glow glow--2" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="./" aria-label="Soft Lumen Studio">
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+        <defs>
+          <radialGradient id="bg1" cx="50%" cy="45%" r="55%">
+            <stop offset="0%" stop-color="#ffd9a0"/>
+            <stop offset="60%" stop-color="#ffb861"/>
+            <stop offset="100%" stop-color="#8ea2ff"/>
+          </radialGradient>
+        </defs>
+        <circle cx="16" cy="16" r="9" fill="url(#bg1)"/>
+        <circle cx="16" cy="16" r="13.5" fill="none" stroke="currentColor" stroke-opacity=".35" stroke-width="1.25"/>
+      </svg>
+      <span class="brand__text">Soft&nbsp;Lumen<span class="brand__text-dim"> Studio</span></span>
+    </a>
+    <div class="header-actions" style="margin-left:auto">
+      <a class="btn btn--ghost" href="./#contact" style="padding:9px 16px;font-size:14px">Contact</a>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Basculer le thème clair / sombre">
+        <svg class="icon icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8"/></svg>
+        <svg class="icon icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="page center">
+  <div class="container">
+    <p class="eyebrow">Erreur 404</p>
+    <h1>Page introuvable</h1>
+    <p>Cette page n'existe pas ou a été déplacée.</p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="./">Retour à l'accueil</a>
+      <a class="btn btn--ghost" href="mailto:hello@softlumenstudio.com">Nous signaler le problème</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p class="footer__brand">Soft Lumen Studio</p>
+    <nav class="footer__links" aria-label="Liens de bas de page">
+      <a href="index.html">Accueil</a>
+      <a href="legal.html">Mentions légales</a>
+      <a href="privacy.html">Confidentialité</a>
+      <a href="mailto:hello@softlumenstudio.com">Contact</a>
+    </nav>
+    <p class="footer__copy">© <span id="year">2026</span> Soft Lumen Studio</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

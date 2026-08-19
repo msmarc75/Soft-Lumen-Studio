@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soft Lumen Studio — Studio indépendant de développement d'applications</title>
+<meta name="description" content="Soft Lumen Studio est un studio indépendant qui conçoit des applications mobiles et web simples, soignées et respectueuses de la vie privée.">
+<link rel="canonical" href="https://msmarc75.github.io/Soft-Lumen-Studio/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Soft Lumen Studio">
+<meta property="og:title" content="Soft Lumen Studio">
+<meta property="og:description" content="Studio indépendant de développement d'applications mobiles et web. Simple, soigné, respectueux de la vie privée.">
+<meta property="og:url" content="https://msmarc75.github.io/Soft-Lumen-Studio/">
+<meta property="og:image" content="https://msmarc75.github.io/Soft-Lumen-Studio/assets/img/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0b0d13">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Soft Lumen Studio",
+  "url": "https://msmarc75.github.io/Soft-Lumen-Studio/",
+  "logo": "https://msmarc75.github.io/Soft-Lumen-Studio/assets/img/favicon.svg",
+  "description": "Studio indépendant de développement d'applications mobiles et web.",
+  "email": "hello@softlumenstudio.com"
+}
+</script>
+</head>
+<body data-page="home">
+<a class="skip-link" href="#main" data-i18n="skip">Aller au contenu</a>
+
+<div class="glow glow--1" aria-hidden="true"></div>
+<div class="glow glow--2" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="./" aria-label="Soft Lumen Studio">
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+        <defs>
+          <radialGradient id="bg1" cx="50%" cy="45%" r="55%">
+            <stop offset="0%" stop-color="#ffd9a0"/>
+            <stop offset="60%" stop-color="#ffb861"/>
+            <stop offset="100%" stop-color="#8ea2ff"/>
+          </radialGradient>
+        </defs>
+        <circle cx="16" cy="16" r="9" fill="url(#bg1)"/>
+        <circle cx="16" cy="16" r="13.5" fill="none" stroke="currentColor" stroke-opacity=".35" stroke-width="1.25"/>
+      </svg>
+      <span class="brand__text">Soft&nbsp;Lumen<span class="brand__text-dim"> Studio</span></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Navigation principale">
+      <a href="#studio" data-i18n="nav.studio">Le studio</a>
+      <a href="#services" data-i18n="nav.services">Ce que nous faisons</a>
+      <a href="#approche" data-i18n="nav.approach">Approche</a>
+      <a href="#apps" data-i18n="nav.apps">Applications</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="lang-toggle" type="button" aria-label="Switch to English">
+        <span id="lang-label">EN</span>
+      </button>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Basculer le thème clair / sombre">
+        <svg class="icon icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8"/></svg>
+        <svg class="icon icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
+      </button>
+      <button class="icon-btn nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <p class="eyebrow" data-i18n="hero.eyebrow">Studio indépendant de développement d'applications</p>
+      <h1 class="hero__title">Soft Lumen Studio</h1>
+      <p class="hero__lead" data-i18n="hero.lead">Nous concevons des applications mobiles et web simples, soignées et respectueuses de votre vie privée. Une idée à la fois, faite correctement.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#contact" data-i18n="hero.cta1">Nous écrire</a>
+        <a class="btn btn--ghost" href="#studio" data-i18n="hero.cta2">Découvrir le studio</a>
+      </div>
+      <p class="status" role="status">
+        <span class="status__dot" aria-hidden="true"></span>
+        <span data-i18n="hero.status">Studio en cours de lancement — nos premières applications sont en préparation.</span>
+      </p>
+    </div>
+  </section>
+
+  <section id="studio" class="section">
+    <div class="container grid-2">
+      <div>
+        <p class="section__label" data-i18n="studio.label">Le studio</p>
+        <h2 class="section__title" data-i18n="studio.title">Petit studio, grande attention aux détails</h2>
+      </div>
+      <div class="prose">
+        <p data-i18n="studio.p1">Soft Lumen Studio est un studio de développement indépendant. Nous partons d'une conviction simple : une application doit faire une chose, la faire bien, et ne pas demander plus que ce dont elle a besoin.</p>
+        <p data-i18n="studio.p2">Pas de publicité, pas de collecte de données superflue, pas de fonctionnalités ajoutées pour faire nombre. Juste des outils clairs, rapides et agréables à utiliser au quotidien.</p>
+        <p data-i18n="studio.p3">Le studio démarre : aucune application n'est encore publiée. Cette page présente ce que nous faisons et comment nous joindre en attendant les premières sorties.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section section--alt">
+    <div class="container">
+      <p class="section__label" data-i18n="services.label">Ce que nous faisons</p>
+      <h2 class="section__title" data-i18n="services.title">Du concept à la mise en ligne</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>
+          </div>
+          <h3 data-i18n="services.c1.t">Applications mobiles</h3>
+          <p data-i18n="services.c1.d">Des applications iOS et Android pensées pour l'usage réel : rapides à ouvrir, lisibles d'un coup d'œil, utilisables hors ligne quand c'est possible.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="2.5" y="4.5" width="19" height="13" rx="2.5"/><path d="M8 21h8M12 17.5V21"/></svg>
+          </div>
+          <h3 data-i18n="services.c2.t">Applications web</h3>
+          <p data-i18n="services.c2.d">Des interfaces légères et accessibles, qui fonctionnent sur n'importe quel appareil et n'imposent ni compte inutile ni téléchargement.</p>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 3v13"/><path d="M7.5 11.5 12 16l4.5-4.5"/><path d="M4 19.5h16"/></svg>
+          </div>
+          <h3 data-i18n="services.c3.t">Conception et publication</h3>
+          <p data-i18n="services.c3.d">Nous prenons en charge l'ensemble : cadrage de l'idée, design de l'interface, développement, publication sur les stores, puis mises à jour.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="approche" class="section">
+    <div class="container">
+      <p class="section__label" data-i18n="approach.label">Approche</p>
+      <h2 class="section__title" data-i18n="approach.title">Quatre principes, tenus</h2>
+      <ol class="steps">
+        <li class="step">
+          <span class="step__num">01</span>
+          <h3 data-i18n="approach.s1.t">La simplicité d'abord</h3>
+          <p data-i18n="approach.s1.d">Une fonctionnalité entre dans l'application seulement si elle sert vraiment. Le reste attend.</p>
+        </li>
+        <li class="step">
+          <span class="step__num">02</span>
+          <h3 data-i18n="approach.s2.t">La vie privée par défaut</h3>
+          <p data-i18n="approach.s2.d">Le minimum de données, gardées le moins longtemps possible, et jamais revendues.</p>
+        </li>
+        <li class="step">
+          <span class="step__num">03</span>
+          <h3 data-i18n="approach.s3.t">Le soin du détail</h3>
+          <p data-i18n="approach.s3.d">Typographie, animations, temps de chargement, textes : ce sont les détails qui rendent un outil agréable.</p>
+        </li>
+        <li class="step">
+          <span class="step__num">04</span>
+          <h3 data-i18n="approach.s4.t">Livrer, puis écouter</h3>
+          <p data-i18n="approach.s4.d">Une première version honnête, mise entre les mains des utilisateurs, puis améliorée avec leurs retours.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="apps" class="section section--alt">
+    <div class="container">
+      <p class="section__label" data-i18n="apps.label">Applications</p>
+      <h2 class="section__title" data-i18n="apps.title">Rien à montrer… pour l'instant</h2>
+      <p class="section__lead" data-i18n="apps.lead">Nos premières applications sont en cours de développement. Cette page les accueillera dès leur publication — écrivez-nous pour être prévenu au lancement.</p>
+      <div class="cards">
+        <article class="card card--empty">
+          <span class="pill" data-i18n="apps.soon">Bientôt</span>
+          <h3 data-i18n="apps.slot">Première application</h3>
+          <p data-i18n="apps.slotd">Cet emplacement accueillera le nom, l'icône et le lien de téléchargement de l'application.</p>
+        </article>
+        <article class="card card--empty">
+          <span class="pill" data-i18n="apps.soon">Bientôt</span>
+          <h3 data-i18n="apps.slot2">Deuxième application</h3>
+          <p data-i18n="apps.slotd">Cet emplacement accueillera le nom, l'icône et le lien de téléchargement de l'application.</p>
+        </article>
+        <article class="card card--empty">
+          <span class="pill" data-i18n="apps.soon">Bientôt</span>
+          <h3 data-i18n="apps.slot3">Troisième application</h3>
+          <p data-i18n="apps.slotd">Cet emplacement accueillera le nom, l'icône et le lien de téléchargement de l'application.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container contact">
+      <p class="section__label" data-i18n="contact.label">Contact</p>
+      <h2 class="section__title" data-i18n="contact.title">Une idée, une question, un projet ?</h2>
+      <p class="section__lead" data-i18n="contact.lead">Le studio est joignable directement par e-mail. Nous répondons à tous les messages sérieux, généralement sous quelques jours.</p>
+      <a class="btn btn--primary btn--lg" href="mailto:hello@softlumenstudio.com">hello@softlumenstudio.com</a>
+      <p class="fine" data-i18n="contact.fine">Vous pouvez aussi nous écrire pour signaler un bug, proposer une fonctionnalité ou demander une traduction.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p class="footer__brand">Soft Lumen Studio</p>
+    <nav class="footer__links" aria-label="Liens de bas de page">
+      <a href="legal.html" data-i18n="footer.legal">Mentions légales</a>
+      <a href="privacy.html" data-i18n="footer.privacy">Confidentialité</a>
+      <a href="mailto:hello@softlumenstudio.com" data-i18n="footer.contact">Contact</a>
+    </nav>
+    <p class="footer__copy">© <span id="year">2026</span> Soft Lumen Studio</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

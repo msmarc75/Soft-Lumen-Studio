@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://msmarc75.github.io/Soft-Lumen-Studio/sitemap.xml
